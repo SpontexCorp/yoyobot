@@ -2,15 +2,16 @@ plugins {
     id 'java'
 }
 
-group 'com.github.yourname'
+group 'org.example'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
-    implementation 'org.javacord:javacord:3.0.0'
+    compile 'net.dv8tion:JDA:4.0.0_79'
 }
